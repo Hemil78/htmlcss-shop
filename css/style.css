@@ -26,6 +26,8 @@ body{
     width: calc(100% / 3);
     padding: 15px;
 }
+
+/* cards */
     
 .card img{
     width: 100%;
@@ -41,7 +43,8 @@ body{
 
 .discount{
     background-color: red;
-    bottom: 80px;
+    bottom: 40px;
+    left: 300px;
     padding: 10px;
     border-radius: 50%;
     font-size: 15px;
@@ -49,7 +52,7 @@ body{
 
 .tag{
     background-color: #50c436;
-    top: 30px;
+    top: 25px;
     padding: 5px;
     border-radius: 10px;
     font-size: 12px;
@@ -65,6 +68,7 @@ body{
     opacity: 0.5;
 }
 
+/* transition model */
 .model{
     display: none;
 }
@@ -77,11 +81,21 @@ body{
     display: none;
 }
 
+/* price */
+
+.text{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #e4e4e4;
+}
 .price-red{
-    color: red;    
+    color: red; 
+    font-weight: 800;   
 }
 
 .price-black{
+    margin-left: 20px;
     text-decoration: line-through;
 }
 
