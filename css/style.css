@@ -14,14 +14,64 @@ body{
     width: 80%;
     margin: auto;
     margin-top: 20px;
-    background-color: #f2e3ee;
+    background-color: #efd7e9;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .card{
-    display: inline-block;
-    height: 500px; 
+    position: relative;
+    display: inline-block; 
     width: calc(100% / 3);
-    /* background-color: red; */
-    border: 1px solid black;
+    padding: 15px;
 }
+    
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.discount, .tag{
+    position: absolute;
+    left: 25px;
+    color: white;
+}
+
+.discount{
+    background-color: red;
+    bottom: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.tag{
+    background-color: #50c436;
+    top: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.heart{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    color: red;
+    font-size: 40px;
+    opacity: 0.5;
+}
+
+.card:hover .heart{
+    display: block;
+}
+    
+    
+    
+    
+    
+    
+
+
+
