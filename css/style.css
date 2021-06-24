@@ -69,15 +69,12 @@ body{
 }
 
 /* transition model */
-.model{
-    display: none;
-}
 
 .card:hover .heart, .card:hover .model, .visible{
     display: block;
 }
 
-.card:hover .visible{
+.card:hover .visible, .model{
     display: none;
 }
 
