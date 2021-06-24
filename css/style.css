@@ -40,7 +40,7 @@ body{
 
 .discount{
     background-color: red;
-    bottom: 30px;
+    bottom: 80px;
     padding: 10px;
     border-radius: 50%;
     font-size: 15px;
@@ -74,6 +74,14 @@ body{
 
 .card:hover .visible{
     display: none;
+}
+
+.price-red{
+    color: red;    
+}
+
+.price-black{
+    text-decoration: line-through;
 }
 
 
