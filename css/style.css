@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+
+/* common */
 body{
     background-color: white;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #f2e3ee;
+    border-radius: 10px;
+}
+
+.card{
+    display: inline-block;
+    height: 500px; 
+    width: calc(100% / 3);
+    /* background-color: red; */
+    border: 1px solid black;
 }
