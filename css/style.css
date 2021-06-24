@@ -31,6 +31,7 @@ body{
     border-radius: 10px;
 }
 
+
 .discount, .tag{
     position: absolute;
     left: 25px;
@@ -63,9 +64,21 @@ body{
     opacity: 0.5;
 }
 
-.card:hover .heart{
+.model{
+    display: none;
+}
+
+.card:hover .heart, .card:hover .model, .visible{
     display: block;
 }
+
+.card:hover .visible{
+    display: none;
+}
+
+
+
+
     
     
     
